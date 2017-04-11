@@ -6,6 +6,7 @@
 // entry-point muutettu app.js nyt ennen index.js
 
 // Meaning of rest: HTTP verbs and URL's mean something
+// npm install body-parser
 
 var express = require('express');
 var app = express();
