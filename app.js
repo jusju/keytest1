@@ -11,7 +11,7 @@
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
-
+// nyt naytetaan myos veppisivullai
 var apiController = require('./controllers/apiController');
 var htmlController = require('./controllers/htmlController');
 
@@ -43,3 +43,4 @@ app.use('/', function (req, res, next) {
 htmlController(app);
 apiController(app);
 app.listen(port);
+:q!
